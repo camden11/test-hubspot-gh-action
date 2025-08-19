@@ -8,7 +8,7 @@ const Extension = () => {
   return (
     <>
       <Text>
-        Congrats! Here is your new card!
+        Congrats! Here is your new card! Test
       </Text>
     </>
   );
