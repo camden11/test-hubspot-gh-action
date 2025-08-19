@@ -11,5 +11,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Install HubSpot CLI
+        uses: HubSpot/hubspot-project-actions/install-hubspot-cli@v1.0.0
+        with:
+          cli_version: '7.6.0-beta.11'
       - name: HubSpot Project Upload Action
         uses: HubSpot/hubspot-project-actions/project-upload@v1.0.0
